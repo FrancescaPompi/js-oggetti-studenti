@@ -43,3 +43,10 @@ const nuovoStudente = {
 };
 
 studenti.push(nuovoStudente);
+
+for (let i = 0; i < studenti.length; i++) {
+    let student = studenti[i];
+    for (let key in student) {
+        console.log(student[key]);
+    }
+}
