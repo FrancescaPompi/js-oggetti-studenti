@@ -31,3 +31,15 @@ for (let i = 0; i < studenti.length; i++) {
     console.log('Nome: ' + studenteCorrente.nome);
     console.log('Cognome: ' + studenteCorrente.cognome);
 }
+
+const nomeNuovoStudente = prompt('Inserire nome studente');
+const cognomeNuovoStudente = prompt('Inserire cognome studente');
+const etaNuovoStudente = prompt('Inserire eta studente');
+
+const nuovoStudente = {
+    nome: nomeNuovoStudente,
+    cognome: cognomeNuovoStudente,
+    eta: etaNuovoStudente
+};
+
+studenti.push(nuovoStudente);
