@@ -25,3 +25,9 @@ let studenti = [
         eta: 29
     }
 ];
+
+for (let i = 0; i < studenti.length; i++) {
+    let studenteCorrente = studenti[i];
+    console.log('Nome: ' + studenteCorrente.nome);
+    console.log('Cognome: ' + studenteCorrente.cognome);
+}
